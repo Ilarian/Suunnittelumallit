@@ -1,0 +1,2 @@
+# Suunnittelumallit
+Ohjelmistotuotannon suunnittelumallit kurssin tehtävät
