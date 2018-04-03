@@ -3,28 +3,30 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package teht2;
+package Teht5;
 
 /**
  *
  * @author Ilari
  */
-public class Boss implements VaatteetIF{
-
+public class Adidas implements VaatteetIF {
+    @Override
     public Kengat teeKengat() {
-        return new Kengat("Boss");
+        return new Kengat("Adidas");
     }
 
+    @Override
     public Housut teeHousut() {
-        return new Housut("Boss");
+        return new Housut("Adidas");
     }
 
+    @Override
     public Paita teePaita() {
-        return new Paita("Boss");
+        return new Paita("Adidas");
     }
 
+    @Override
     public Lippis teeLippis() {
-        return new Lippis("Boss");
+        return new Lippis("Adidas");
     }
-    
 }

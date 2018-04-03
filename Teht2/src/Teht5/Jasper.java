@@ -3,7 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package teht2;
+package Teht5;
+
+import Teht5.Boss;
 
 /**
  *
@@ -15,7 +17,7 @@ public class Jasper {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Vaatteet kuteet = new Vaatteet(new Boss());
+        Vaatteet kuteet = Vaatteet.getInstance(new Adidas());
         
         System.out.println(kuteet.kengat);
         System.out.println(kuteet.housut);

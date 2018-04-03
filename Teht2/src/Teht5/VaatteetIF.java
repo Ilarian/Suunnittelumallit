@@ -3,7 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package teht2;
+package Teht5;
+
+import Teht5.Paita;
+import Teht5.Lippis;
+import Teht5.Kengat;
+import Teht5.Housut;
 
 /**
  *

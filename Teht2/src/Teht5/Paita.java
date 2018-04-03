@@ -3,21 +3,20 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package teht2;
+package Teht5;
 
 /**
  *
  * @author Ilari
  */
-public class Kengat {
+public class Paita {
     String merkki;
-    
-    Kengat(String merkki){
+    Paita(String merkki){
         this.merkki = merkki;
     }
     
     @Override
     public String toString(){
-        return "Kenkäni ovat merkkiä: " + merkki;
+        return "Paitani on merkkiä: " + merkki;
     }
 }
